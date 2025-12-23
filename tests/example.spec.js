@@ -12,7 +12,7 @@ test('example test', async () => {
             waitUntil: "domcontentloaded",
         });
         // Take a screenshot and save it to a file
-        await page.screenshot({ path: "example-test.png", 
+        await page.screenshot({ path: "example-test.png", fullPage: true
         });
 
         // verify if screenshot matches
